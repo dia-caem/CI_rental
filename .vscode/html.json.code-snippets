@@ -1,0 +1,36 @@
+{
+	"PHP Tag": {
+		"prefix": "php",
+		"body": "<?php $1 ?>"
+	},
+
+	"PHP echo": {
+		"prefix": "phpp",
+		"body": "<?= $$1; ?>"
+	},
+
+	"PHP base_url": {
+		"prefix": "phpb",
+		"body": "<?= base_url($1)?>"
+	},
+
+	"PHP pubic function": {
+		"prefix": "public",
+		"body": "public function $1{}"
+	},
+
+	"PHP tr": {
+		"prefix": "tr",
+		"body": "<tr>$1</tr>"
+	},
+
+	"PHP td": {
+		"prefix": "td",
+		"body": "<td>$1</td>"
+	},
+
+	"PHP img": {
+		"prefix": "img",
+		"body": "<img src= alt= >"
+	},
+}
